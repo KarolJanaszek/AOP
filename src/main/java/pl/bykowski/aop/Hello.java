@@ -5,6 +5,7 @@ import org.springframework.context.event.EventListener;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.scheduling.annotation.Schedules;
 import org.springframework.stereotype.Component;
+import pl.bykowski.aop.aspect.HelloAspectAnnotation;
 
 //Samego Shedulinga nie stosuje się często. Lepiej konkretną metodę przypisać do endopintu i wywołać ją przez ContinuesIntegration, np Jenkins.
 @Component
